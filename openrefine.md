@@ -95,5 +95,12 @@ Vous aurez le résultat suivant:
 
 Quelques résultats intéressants en découlent. Nous constatons en haut que 4684 lignes correspondent à "Titan". Si vous vous étiez basés sur le résultat de l'étape précédente, vous auriez pu supposer que "Titan" avait seulement 3627 bandes dessinées dans la collection. Un examen plus approfondi à l'aide de la fonction de filtre de texte nous montre combien d'enregistrements nous aurions pu manquer en raison de fautes de frappe et de variantes d'orthographe.
 
+3- À ce stade, il est possible de supprimer une partie des incohérences observées en cliquant sur l'option "Modifier" à l'intérieur des cellules de variantes individuelles.
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/0b45b16d-c618-49a9-9792-a30ec511f6bf)
+
+4- Vous tapez `Titan` en appliquant cette modification à toutes les cellules identiques
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/f7c578fc-48b7-494c-b40b-30867e4f7077)
 
 
