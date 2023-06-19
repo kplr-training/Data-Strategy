@@ -33,5 +33,20 @@ cd openrefine-3.7.2
 
 ## Data preparation using OpenRefine
 
+### Création du projet
+
 [Télécharger le fichier des données](https://www.thomaspadilla.org/data/dataprep/authors-people.csv)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/6bf23384-ddf1-45bc-9e17-e2e079624e1c)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/6d22f1e4-a106-43c2-ae9a-3367dbcbb5df)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/0494e326-33b7-45ab-9c8c-06a2fafb77ca)
+
+### Examination des données
+
+Prenez quelques instants pour observer la structure des données en gardant à l'esprit les principes de "données organisées". L'examen des données est une étape essentielle dans le processus d'analyse. Cela implique de prendre le temps d'explorer les données, d'examiner leur structure, leur qualité et leur contenu. Lors de cet examen, il est important d'identifier les éventuelles erreurs, les incohérences et les valeurs manquantes. 
+
+De plus, il est recommandé de comprendre la signification des différentes variables et de repérer les schémas ou les tendances qui pourraient être présents. Cet examen approfondi des données permet de poser les bases d'une analyse rigoureuse et de formuler des questions pertinentes pour orienter la suite du travail de traitement et d'interprétation des données.
+
 
