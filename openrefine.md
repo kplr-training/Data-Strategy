@@ -103,4 +103,8 @@ Quelques résultats intéressants en découlent. Nous constatons en haut que 468
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/f7c578fc-48b7-494c-b40b-30867e4f7077)
 
+Vous aurez donc des données bien nettoyées.
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/d190ae80-c5ed-4390-b5bf-68913cea020f)
+
 
