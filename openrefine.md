@@ -1,4 +1,4 @@
-## Installation OpenRefine on Gitpod
+## Installation OpenRefine on Codespace
 
 ```
 wget https://github.com/OpenRefine/OpenRefine/releases/download/3.7.2/openrefine-linux-3.7.2.tar.gz
