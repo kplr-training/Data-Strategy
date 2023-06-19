@@ -65,7 +65,35 @@ Chaque colonne dispose d'une fonction de facettes qui vous permet d'identifier r
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/4c9710e2-afb5-4276-a484-4e3f6df5836a)
 
-4- Survolez le curseur à droite de "Titan.," puis cliquez sur "Modifier". Tapez "Titan" et donc "Titan.," sera transformé en "Titan" pour les 33 occurrences.
+4- Survolez le curseur à droite de `Titan.,` puis cliquez sur "Modifier". Tapez `Titan` et donc `Titan.,` sera transformé en "Titan" pour les 33 occurrences.
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/899d1108-6256-460f-9dc9-fec663df2b73)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/1d2feb6b-eb07-4a35-a84f-c1e0addea8c0)
+
+Vous aurez le message suivant qui s'affiche en haut :
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/a3cc616d-0ba6-44cb-bd34-636592edf401)
+
+
+
+## Filtrage des données
+
+Chaque colonne contient une fonction de "filtre de texte". Le filtre de texte est utile pour identifier les éléments de données qui peuvent avoir de nombreuses variantes. Comme nous l'avons vu dans la section précédente, l'éditeur "Titan" peut être représenté de différentes manières. Pour explorer davantage cela, nous utilisons le filtre de texte pour filtrer toutes les occurrences de "Titan".
+
+1- Cliquez sur la colonne 'Editeur' et choissisez `Text filter`
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/836388cc-b954-4f23-98a7-fb51977249c4)
+
+2- Puis tapez le nom `Titan`
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/2c81de54-7a04-4004-af85-d6c0754f681d)
+
+Vous aurez le résultat suivant: 
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/0dbf1e50-dd8c-4d57-aa24-f02f92e05453)
+
+Quelques résultats intéressants en découlent. Nous constatons en haut que 4684 lignes correspondent à "Titan". Si vous vous étiez basés sur le résultat de l'étape précédente, vous auriez pu supposer que "Titan" avait seulement 3627 bandes dessinées dans la collection. Un examen plus approfondi à l'aide de la fonction de filtre de texte nous montre combien d'enregistrements nous aurions pu manquer en raison de fautes de frappe et de variantes d'orthographe.
 
 
 
