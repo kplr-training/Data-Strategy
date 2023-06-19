@@ -122,9 +122,55 @@ Le regroupement révèle des motifs d'irrégularité dans la colonne de données
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/441bd2b3-2c89-4012-9e62-c324c54c1e65)
 
+Vérifiez que les modifications sont bien apportées!
+
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/e9899b1f-224c-4034-8b2e-76d561723555)
 
 **NB: Si effectuer autant de modifications à la fois vous rend nerveux, ne vous inquiétez pas. L'un des grands avantages d'OpenRefine est qu'il stocke l'historique des modifications apportées à vos données et vous permet de revenir à des états précédents à n'importe quelle étape. Ainsi, vous pouvez toujours revenir en arrière et annuler des modifications si nécessaire, ce qui vous offre une grande flexibilité et une tranquillité d'esprit lors de l'édition de vos données.**
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/a8056307-3271-4a96-94c7-7fbf3980c752)
 
+## Transformation des données
+
+Il existe deux méthodes différentes pour transformer les données à l'aide d'OpenRefine: 
+
+#### Méthode 1:
+
+La première méthode vous permet d'utiliser des transformations prédéfinies qui effectuent des fonctions telles que la suppression des espaces vides en début et fin de texte (un espace supplémentaire au début ou à la fin d'une entrée). 
+
+Cela peut sembler être un problème de mise en forme de données trivial, mais sans cette transformation, chaque élément de données avec un espace supplémentaire en début ou fin serait interprété comme différent d'une information identique par ailleurs (par exemple, " Titan " et "Titan").
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/ad58f415-afc8-48db-9e63-2e1f179b062c)
+
+Vérifiez que les modifications sont bien apportées!
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/45f32314-3ff9-4f42-8f10-072604b8b4a3)
+
+#### Méthode 2:
+
+L'autre méthode de transformation vous permet d'utiliser le langage d'expression OpenRefine (GREL) pour normaliser les données. Dans l'exemple suivant, nous utilisons une expression régulière simple pour remplacer toutes les occurrences d'un point dans la colonne "Auteur-Personnes". 
+
+Cette action modifie 3430 noms d'auteur. Si nous n'utilisions pas GREL, il nous faudrait beaucoup de temps pour parcourir chaque emplacement d'un point associé à chaque auteur dans l'ensemble de données.
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/dacdb082-44e2-4655-91eb-2211e2f40a81)
+
+```
+value.replace('.','')
+```
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/ccc71195-346d-4242-b9bd-cdd79619fe27)
+
+Vérifiez que les modifications sont bien apportées!
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/8e22aeb2-2f68-4a4b-be73-a0e72b4de941)
+
+### Exportation des données
+
+Une fois que vous avez atteint une étape où vous estimez que vos données sont prêtes, vous aurez de nombreuses options pour les extraire d'OpenRefine et les diffuser.
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/7bd618ed-bc30-4834-bb38-50a9eb6e5f53)
+
+L'export de l'historique des modifications des données (si vous souhaitez conserver une documentation détaillée de vos données, c'est une excellente option) permet d'exporter l'historique complet des modifications que vous avez apportées à vos données dans OpenRefine. 
+
+Cela peut inclure toutes les transformations, les regroupements, les nettoyages et autres opérations effectuées sur les données. En exportant cet historique, vous pouvez conserver une trace détaillée de toutes les étapes que vous avez suivies, ce qui facilite la documentation de votre processus de préparation des données.
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/1e530795-90e7-42b5-9fba-5d5770482dda)
