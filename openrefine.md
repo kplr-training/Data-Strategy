@@ -10,24 +10,31 @@ Le guide "Préparation des données en utilisant OpenRefine" est conçu pour vou
 
 ## Installation OpenRefine on Codespace
 
+1- Dans le terminal de votre Codespace, tapez la commande suivante pour télécharger le fichier d'installation d'OpenRefine
 ```
 wget https://github.com/OpenRefine/OpenRefine/releases/download/3.7.2/openrefine-linux-3.7.2.tar.gz
 ```
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/70abcbae-12e7-4f88-83ef-81e7c6375cae)
 
+2- Décompressez le fichier
+
 ```
 tar -xzf openrefine-linux-3.7.2.tar.gz
 ```
+3- Accédez au dossier d'installation
 ```
 cd openrefine-3.7.2
 ```
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/eb08d9df-4075-4b5d-96fd-0c18c14c865e)
 
+4- Lancez OpenRefine
 ```
 ./refine
 ```
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/f2d1d4f6-c1ec-4011-a0eb-3d6fa525cd8e)
+
+5- Faites Ctrl+ Clique sur le lien en bas `https:\\127.0.0.1:3333` et vous aurez accès à l'interface de OpenRefine:
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/0eaa3018-3605-45e2-a19c-b125ce76ccf8)
 
@@ -35,11 +42,19 @@ cd openrefine-3.7.2
 
 ### Création du projet
 
-[Télécharger le fichier des données](https://www.thomaspadilla.org/data/dataprep/authors-people.csv)
+1- Tout d'abord, téléchargez le fichier de données en cliquant sur le lien suivant:
+
+[Télécharger le fichier des données](https://www.thomaspadilla.org/data/dataprep/authors-people.csv) 
+
+2- Depuis l'interface, sélectionnez le fichier csv
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/6bf23384-ddf1-45bc-9e17-e2e079624e1c)
 
+3- Vous aurez un aperçus sur les données que vous allez préparer:
+
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/6d22f1e4-a106-43c2-ae9a-3367dbcbb5df)
+
+4- Créez le projet:
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/0494e326-33b7-45ab-9c8c-06a2fafb77ca)
 
