@@ -107,4 +107,24 @@ Vous aurez donc des données bien nettoyées.
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/d190ae80-c5ed-4390-b5bf-68913cea020f)
 
+## Clustring des données 
+
+En plus des facettes et des filtres, il est également possible de regrouper et de normaliser les variations dans l'ensemble de données. Le regroupement permettra de trouver des motifs de variation sans que vous ayez besoin de :
+
+- Fouiller l'ensemble de données à la recherche de petites variations.
+- ou les éliminer une par une à l'aide de facettes ou de filtres.
+
+Commencez par la méthode par défaut de "collision de clé" en utilisant la fonction "empreinte digitale" ("fingerprint").
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/39433a36-7b66-4715-966a-d8dc57ee2947)
+
+Le regroupement révèle des motifs d'irrégularité dans la colonne de données sélectionnée. Il est alors possible de passer en revue les résultats du regroupement et de fusionner les données dans la forme souhaitée. Dans l'exemple ci-dessous, en fusionnant les données variantes de la première section avec la forme "Titan", 4454 enregistrements seront modifiés.
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/441bd2b3-2c89-4012-9e62-c324c54c1e65)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/e9899b1f-224c-4034-8b2e-76d561723555)
+
+**NB: Si effectuer autant de modifications à la fois vous rend nerveux, ne vous inquiétez pas. L'un des grands avantages d'OpenRefine est qu'il stocke l'historique des modifications apportées à vos données et vous permet de revenir à des états précédents à n'importe quelle étape. Ainsi, vous pouvez toujours revenir en arrière et annuler des modifications si nécessaire, ce qui vous offre une grande flexibilité et une tranquillité d'esprit lors de l'édition de vos données.**
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/a8056307-3271-4a96-94c7-7fbf3980c752)
 
