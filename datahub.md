@@ -25,6 +25,8 @@ datahub docker quickstart
 
 ## Installation de Datahub sur Codespace
 
-```git clone https://github.com/linkedin/datahub.git```
+```
+git clone https://github.com/linkedin/datahub.git
+```
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/725b14c4-5458-4d74-b301-2de92a6bd2af)
