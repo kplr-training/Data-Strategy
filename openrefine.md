@@ -49,4 +49,23 @@ Prenez quelques instants pour observer la structure des données en gardant à l
 
 De plus, il est recommandé de comprendre la signification des différentes variables et de repérer les schémas ou les tendances qui pourraient être présents. Cet examen approfondi des données permet de poser les bases d'une analyse rigoureuse et de formuler des questions pertinentes pour orienter la suite du travail de traitement et d'interprétation des données.
 
+### Facettage des données
+
+Chaque colonne dispose d'une fonction de facettes qui vous permet d'identifier rapidement les incohérences dans vos données en comptant le nombre d'occurrences uniques pour chaque élément de données de cette colonne. En utilisant cette fonction, vous allez analyser la répartition des bandes dessinées dans l'ensemble de données par éditeur. La première étape consiste à évaluer la cohérence des données dans la colonne "Éditeur".
+
+1- Cliquez sur la colonne "Éditeur" > Sélectionnez "Facette" > Sélectionnez "Facette de texte".
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/0e20a443-611d-48d3-bb66-f24e760675d8)
+
+2- Appliquez la facette par 'count' sur le côté gauche puis observez le nombre d'enregistrements pour l'éditeur "Titan".
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/e291a883-ef56-4e9c-88bf-4b34974673ff)
+
+3- Appliquez la facette par 'name' sur le côté gauche puis faites défiler jusqu'à "Titan" et observez les différentes représentations de "Titan".
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/4c9710e2-afb5-4276-a484-4e3f6df5836a)
+
+4- Survolez le curseur à droite de "Titan.," puis cliquez sur "Modifier". Tapez "Titan" et donc "Titan.," sera transformé en "Titan" pour les 33 occurrences.
+
+
 
