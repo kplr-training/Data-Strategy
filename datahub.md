@@ -124,9 +124,10 @@ De plus, vous pouvez utiliser l'héritage dans votre glossaire. Par exemple, nou
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/6b222821-0406-49ab-a507-3fa4ce15b77e)
 
-3- Vous aurez le résultat suivant:
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/b772c947-5548-4b0f-90e2-443e676d13c5)
+
+3- Vous aurez le résultat suivant:
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/add9b824-e880-4d6a-8937-629127379fe6)
 
