@@ -35,7 +35,7 @@ Une conception de catalogue appropriée nécessite une bonne compréhension des 
 
 La question maintenant est de savoir comment utiliser ces concepts de manière appropriée. Des directives doivent être élaborées par le bureau central de la gouvernance des données afin que chaque domaine d'activité utilise les concepts de la même manière. On pourrait dire que les "groupes de termes" doivent être traités comme des processus métier. 
 
-#### Exemple :
+### Exemple :
 
 Prenons l'exemple suivant : nous voulons avoir un processus métier (groupe de termes) "Approvisionnement en équipements" qui contient tous les termes liés à l'approvisionnement en équipements (par exemple, nom de l'équipement, fabricant de l'équipement, équipement lui-même). Ces termes appartiennent au domaine "Fabrication". Cela peut être fait dans DataHub de la manière suivante :
 
@@ -92,5 +92,42 @@ Prenons l'exemple suivant : nous voulons avoir un processus métier (groupe de t
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/069204ba-9b60-498d-a2df-0acb1853ee5f)
 
+## Modélisation sémantique
+
+Vous pouvez aller encore plus loin dans la modélisation sémantique de vos Terms ! Supposez que vous vouliez spécifier des termes qui fournissent des informations détaillées sur un équipement, comme son nom ou son fabricant. Vous pouvez également construire une hiérarchie de ce type dans DataHub en utilisant la relation "contient", qui est similaire à une relation objet/attribut :
+
+1- Créez d'abord deux autres Terms qui seront liés au Term `Equipement`
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/baa77960-083a-4e5f-99cb-605257f20e91)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/59f1f11c-90ee-4b03-8cd4-8c68e3c00235)
+
+2- Dans la partie `Related Terms` du Term `Equipement`, choisissez `Add Terms`:
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/48ed9616-9ad1-4170-b149-b1d3a19adf2e)
+
+3- Ajoutez les deux Terms créés:
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/7d1608b5-9ca7-40af-ac82-7786a48188b1)
+
+4- Vous aurez le résultat suivant:
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/8dfbdbc2-16cb-4d63-9ab0-6c4325c7ecfd)
+
+De plus, vous pouvez utiliser l'héritage dans votre glossaire. Par exemple, nous voulons différencier les types d'équipements tels que "équipement de mesure" et "équipement logistique" qui ne diffèrent pas de "équipement" mais sont simplement des types plus spécifiques d'"équipement". Dans ce cas, vous pouvez relier ces termes via la fonction "inherits" :
+
+1- Créez d'abord un Term `Logistics equipement`
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/c78ffa14-bf20-4b5a-a36f-0ffab0e49386)
+
+2- Puis, dans la partie `inherits` de `Related Terms` , ajouté le Term d'ou vous allez hérité: 
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/6b222821-0406-49ab-a507-3fa4ce15b77e)
+
+3- Vous aurez le résultat suivant:
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/b772c947-5548-4b0f-90e2-443e676d13c5)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/add9b824-e880-4d6a-8937-629127379fe6)
 
 
