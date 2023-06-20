@@ -132,3 +132,46 @@ De plus, vous pouvez utiliser l'héritage dans votre glossaire. Par exemple, nou
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/add9b824-e880-4d6a-8937-629127379fe6)
 
 
+## Data Discovery
+
+### Recherche et filtrage 
+
+Vous pouvez commencer votre exploration des données à travers l'interface utilisateur de DataHub. 
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/9298ad88-a542-49f0-87eb-c226bbf893e2)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/9e26bd84-4ecb-4ae8-a5ab-af22f43add82)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/bad986fa-ff30-45e6-b7c0-0111715dd194)
+
+
+### Résultats du profilage de la table
+
+Supposons qu'on veux examiner de plus près les données, on clique simplement sur l'ensemble de données `Dataset` depuis la liste. 
+
+La première information qu'on vois est un aperçu du schéma de la table qui affiche les champs, leur type de données et même certains détails du modèle de données :
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/c2bdbaf3-f9b2-480a-911a-a48305b475f0)
+
+La deuxième feuille fait référence à la description qui est vide par défaut.
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/26d97bcb-b408-4721-9006-7f29ff56f100)
+
+Ici, les responsables des données peuvent ajouter des connaissances techniques sur cette table dans DataHub et/ou ajouter des liens vers des documents déjà existants. C'est un outil important pour favoriser la maturité de l'architecture des données dans une entreprise - le catalogue de données est aussi utile que les connaissances partagées et saisies par les experts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
