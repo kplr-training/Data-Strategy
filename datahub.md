@@ -138,9 +138,15 @@ De plus, vous pouvez utiliser l'héritage dans votre glossaire. Par exemple, nou
 
 Vous pouvez commencer votre exploration des données à travers l'interface utilisateur de DataHub. 
 
+1- Dans la page d'acceuil, cliquez sur `Explore All`
+
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/9298ad88-a542-49f0-87eb-c226bbf893e2)
 
+2- Vous aurez cette interface, à gauche vous avez les différents filtres que vous pouvez appliquer ainsi que en haut vous avez une barre de recherche: 
+
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/9e26bd84-4ecb-4ae8-a5ab-af22f43add82)
+
+3- Choissisant par exemple les filtres suivants:
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/bad986fa-ff30-45e6-b7c0-0111715dd194)
 
@@ -158,6 +164,8 @@ La deuxième feuille fait référence à la description qui est vide par défaut
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/26d97bcb-b408-4721-9006-7f29ff56f100)
 
 Ici, les responsables des données peuvent ajouter des connaissances techniques sur cette table dans DataHub et/ou ajouter des liens vers des documents déjà existants. C'est un outil important pour favoriser la maturité de l'architecture des données dans une entreprise - le catalogue de données est aussi utile que les connaissances partagées et saisies par les experts.
+
+
 
 
 
