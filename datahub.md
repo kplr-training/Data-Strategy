@@ -54,7 +54,7 @@ datahub version
 datahub docker quickstart
 ```
 
-![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/1ec06131-104c-448c-bf38-0fc7857890ba)
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/04d9cc32-ba7e-4ef4-b01a-881ff075c9c1)
 
 5- Pour ingérer les métadonnées d'exemple, exécutez la commande suivante depuis votre terminal.
 
@@ -62,8 +62,8 @@ datahub docker quickstart
 datahub docker ingest-sample-data
 ```
 
-![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/04d9cc32-ba7e-4ef4-b01a-881ff075c9c1)
 
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/1ec06131-104c-448c-bf38-0fc7857890ba)
 
 
 
