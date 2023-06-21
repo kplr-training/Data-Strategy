@@ -203,16 +203,23 @@ Elle fournit une vue détaillée et historique sur la façon dont les données o
 
 Dans DataHub, la data lineage fait référence à la capacité de visualiser et de comprendre les dépendances amont et aval d'une entité de données. Cela signifie que vous pouvez identifier les sources de données qui alimentent une entité spécifique, ainsi que les utilisations ultérieures de cette entité par d'autres entités ou processus. 
 
-
+- Pour visualiser le lineage de ces données de test, redirigez vous vers la troisième feuille:
+  
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/da62cdf8-7bc5-48d7-973f-c3c5b9c71743)
+
+- Cliquez sur `Visualize lineage`
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/54e29015-877f-43bb-91ec-120809e6eee8)
 
+- Vous aurez l'interface suivante qui offre une représentation graphique claire et intuitive des dépendances des données. Elle permet de voir les relations entre les différentes entités de données, les flux de données et les transformations effectuées.
+
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/53442cc3-c8da-452e-b835-ce4d44155582)
+
+- Vous pouvez cliquer `Show columns` pour visualiser les colonnes des différents datasets:
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/a659678f-6c4a-4ca2-8e8c-e02d445ecffd)
 
-![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/d751cdd2-504b-413d-9e72-dfb5df8938c3)
+- En cliquant sur le `+` que vous avez sur les différents bornes, vous pouvez visualiser les relations cachées:
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/5842021d-8241-488e-a97e-1d63a4b52a36)
 
