@@ -131,8 +131,41 @@ De plus, vous pouvez utiliser l'héritage dans votre glossaire. Par exemple, nou
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/add9b824-e880-4d6a-8937-629127379fe6)
 
+## IV- Data Ingestion
 
-## IV- Data Discovery
+La section d'ingestion des données de DataHub peut être accédée via la barre de menu en haut à droite :
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/e3a23aa8-dd7f-47d2-9290-e37bb9958313)
+
+Une fois que nous sommes entrés dans la zone Data Ingestion, si vous avez déjà configurer une connexion avec des sources de données, vous allez voir une liste des sources de données déjà configurées, y compris un aperçu qui affiche les statistiques d'exécution comme dans la figure ci-dessous. (Pour votre cas, la liste est vide puisqu'on n'a rien configuré) 
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/92d7917f-d0c7-47a8-9785-ff86a227eaf4)
+
+À partir de là, vous pouvez maintenant exécuter un processus Data Ingestion configuré, modifier la configuration, supprimer ou copier une configuration, ou créer une nouvelle source.
+
+- Vous pouvez ajouter une source de données en cliquant sur `Create new source`:
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/90c5c3af-f7a6-418e-a7aa-6196d81d07a8)
+
+- Comme vous constatez, vous avez beaucoup de choix!
+  
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/bdc646d0-c078-492d-9aaf-781566377c60)
+
+- Lorsque vous choisissez un type de source de données, vous pouvez mettre en place la configuration pour se connecter à la source:
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/51c10f4e-7ba4-4735-8fb7-549ad7490cb5)
+
+- Vous avez la possibilité de planifier l'ingestion de données:
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/8865fc86-9998-4168-8943-b7be8bb740aa)
+
+- Finalement, vous donnez un nom à votre ingestion:
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/7ea6bcf9-5417-47e4-8655-fbe9822069e8)
+
+**NB: le but de cette partie de workshop est seulement pour se familiariser avec les fonctionnalités de Datahub pour l'ingestion de vos données. Vous allez rien ingérer pour le moment! vous allez utilisé les ensembles de données de test**
+
+## V- Data Discovery
 
 ### Recherche et filtrage 
 
@@ -151,7 +184,7 @@ Vous pouvez commencer votre exploration des données à travers l'interface util
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/a5f6d9cf-c359-4dce-8585-2b33b6b86e43)
 
 
-## V- Data profiling 
+## VI- Data profiling 
 
 Supposons qu'on veux examiner de plus près les données, on clique simplement sur l'ensemble de données `Dataset` depuis la liste. Choisissez par exemple le dataset `SampleHiveDataset`.
 
@@ -194,7 +227,7 @@ Comment cela fonctionne-t-il avec DataHub ? Dans la capture d'écran ci-dessous,
 
 4- Finalement, vous avez la possibilité d'ajouter des propriétaires de l'ensemble de données.
 
-## VI- Data Lineage
+## VII- Data Lineage
 
 La data lineage, ou traçabilité des données, est l'ensemble des informations qui permettent de suivre l'origine, les transformations et les mouvements des données tout au long de leur cycle de vie. 
 
