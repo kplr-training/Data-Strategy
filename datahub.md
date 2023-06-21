@@ -5,7 +5,7 @@ DataHub est une plateforme open-source développée par LinkedIn pour la gestion
 DataHub permet de cataloguer les données, de suivre leur origine et leur évolution, de faciliter la collaboration entre les équipes travaillant sur les données et de fournir des fonctionnalités de recherche et de découverte des données. Il vise à améliorer la gouvernance des données, à garantir la qualité des données et à faciliter l'accès et l'utilisation des données au sein de l'organisation. DataHub est extensible et peut être intégré à d'autres outils et technologies de gestion des données.
 
 
-## Interface de DataHub 
+## I- Interface de DataHub 
 
 Pour accèder à l'interface de démonstration de DataHub pour tester l'outil, vous pouvez taper l'adresse suivante dans votre navigateur:
 
@@ -15,7 +15,7 @@ Vous aurez l'interface suivante :
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/153c1b9f-e732-49f4-a205-13b7aafefb0a)
 
-## La conception d'un glossaire
+## II- La conception d'un glossaire
 
 La conception d'un glossaire est un aspect essentiel de la gouvernance des données. Un glossaire est une collection organisée de termes, définitions et métadonnées liés aux données utilisées dans une organisation.
 
@@ -92,7 +92,7 @@ Prenons l'exemple suivant : nous voulons avoir un processus métier (groupe de t
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/069204ba-9b60-498d-a2df-0acb1853ee5f)
 
-## Modélisation sémantique
+## III- Modélisation sémantique
 
 Vous pouvez aller encore plus loin dans la modélisation sémantique de vos Terms ! Supposez que vous vouliez spécifier des termes qui fournissent des informations détaillées sur un équipement, comme son nom ou son fabricant. Vous pouvez également construire une hiérarchie de ce type dans DataHub en utilisant la relation "contient", qui est similaire à une relation objet/attribut :
 
@@ -132,7 +132,7 @@ De plus, vous pouvez utiliser l'héritage dans votre glossaire. Par exemple, nou
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/add9b824-e880-4d6a-8937-629127379fe6)
 
 
-## Data Discovery
+## IV- Data Discovery
 
 ### Recherche et filtrage 
 
@@ -151,7 +151,7 @@ Vous pouvez commencer votre exploration des données à travers l'interface util
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/a5f6d9cf-c359-4dce-8585-2b33b6b86e43)
 
 
-## Data profiling et Data lineage
+## V- Data profiling 
 
 Supposons qu'on veux examiner de plus près les données, on clique simplement sur l'ensemble de données `Dataset` depuis la liste. Choisissez par exemple le dataset `SampleHiveDataset`.
 
@@ -173,10 +173,28 @@ Pour consulter les informations statistiques de chaque colonne de la table séle
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/ba650694-37d4-4824-b666-53fcb4852ad5)
 
+Vous pouvez observer des mesures descriptives telles que le minimum, le maximum et la moyenne, qui sont plus pertinentes dans les tables transactionnelles contenant un grand nombre d'enregistrements. De plus, vous pouvez consulter des valeurs d'exemple pour chaque colonne de votre ensemble de données.
 
 
+### Liaison entre les entités
 
+Bien sûr, la découverte des données a déjà été instructive et favorise la transparence, surtout si vous n'avez jamais eu l'occasion de découvrir une telle fonctionnalité en pratique. Cependant, la pleine puissance d'un catalogue de données n'est libérée que lorsque nous réunissons le monde de l'informatique et le monde des affaires. 
 
+Le "monde de l'informatique" dans ce sens fait référence à toutes les informations techniques relatives aux ensembles de données. Le "monde des affaires" est ce dont nous avons discuté dans la partie précédente : toutes les informations commerciales que nous gérons dans le glossaire. 
+
+Comment cela fonctionne-t-il avec DataHub ? Dans la capture d'écran ci-dessous, nous voyons plusieurs informations marquées, qui font référence à plusieurs types de liens vers le "monde des affaires" et qui peuvent être utilisés conjointement.
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/8c7bf795-3098-4940-bede-326f313c5860)
+
+1- Vous pouvez ajouter un terme du glossaire à une colonne de table. Ce lien indique que les données brutes d'un certain terme se trouvent dans cette colonne, par exemple les noms réels des produits.
+
+2- Aussi, ajouter un terme du glossaire à l'ensemble de la table. Ce lien indique qu'un certain terme est plutôt complexe et décrit par plusieurs attributs qui se trouvent dans cette table.
+
+3- Et vous pouvez ajouter un domaine auquel l'ensemble de données appartient. Ce lien est similaire à la liaison des termes du glossaire à un domaine.
+
+4- Finalement, vous avez la possibilité d'ajouter des propriétaires de l'ensemble de données.
+
+## VI- Data Lineage
 
 
 
