@@ -151,22 +151,27 @@ Vous pouvez commencer votre exploration des données à travers l'interface util
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/a5f6d9cf-c359-4dce-8585-2b33b6b86e43)
 
 
-### Résultats du profilage de la table
+## Data profiling et Data lineage
 
 Supposons qu'on veux examiner de plus près les données, on clique simplement sur l'ensemble de données `Dataset` depuis la liste. Choisissez par exemple le dataset `SampleHiveDataset`.
 
-La première information qu'on vois est un aperçu du schéma de la table qui affiche les champs, leur type de données et même certains détails du modèle de données tels que les clés primaires et étrangères. En haut (sous le nom de l'ensemble de données), nous voyons également en un coup d'œil qu'il y a actuellement `3.5K lignes et 2 colonnes` dans notre dataset.
+### Table Profiling
+
+1- La première information qu'on vois est un aperçu du schéma de la table qui affiche les champs, leur type de données et même certains détails du modèle de données tels que les clés primaires et étrangères. En haut (sous le nom de l'ensemble de données), nous voyons également en un coup d'œil qu'il y a actuellement `3.5K lignes et 2 colonnes` dans notre dataset.
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/2b30361e-2712-4445-abd0-efda009371b5)
 
-La deuxième feuille fait référence à la description qui est vide par défaut.
+2- La deuxième feuille fait référence à la description qui est vide par défaut.
 
-![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/26d97bcb-b408-4721-9006-7f29ff56f100)
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/2bcabc91-ab57-4505-abfa-48a9353b06a1)
 
 Ici, les responsables des données peuvent ajouter des connaissances techniques sur cette table dans DataHub et/ou ajouter des liens vers des documents déjà existants. C'est un outil important pour favoriser la maturité de l'architecture des données dans une entreprise - le catalogue de données est aussi utile que les connaissances partagées et saisies par les experts.
 
+### Column Profiling
 
+Pour consulter les informations statistiques de chaque colonne de la table sélectionnée, vous pouvez accéder à la feuille intitulée `Stats`. Cette feuille vous permet de visualiser les données statistiques relatives à chaque colonne.
 
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/ba650694-37d4-4824-b666-53fcb4852ad5)
 
 
 
