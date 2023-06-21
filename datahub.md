@@ -196,8 +196,25 @@ Comment cela fonctionne-t-il avec DataHub ? Dans la capture d'écran ci-dessous,
 
 ## VI- Data Lineage
 
+La data lineage, ou traçabilité des données, est l'ensemble des informations qui permettent de suivre l'origine, les transformations et les mouvements des données tout au long de leur cycle de vie. 
+
+Elle fournit une vue détaillée et historique sur la façon dont les données ont été créées, modifiées, utilisées et propagées à travers différents systèmes, processus et transformations.
 
 
+Dans DataHub, la data lineage fait référence à la capacité de visualiser et de comprendre les dépendances amont et aval d'une entité de données. Cela signifie que vous pouvez identifier les sources de données qui alimentent une entité spécifique, ainsi que les utilisations ultérieures de cette entité par d'autres entités ou processus. 
+
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/da62cdf8-7bc5-48d7-973f-c3c5b9c71743)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/54e29015-877f-43bb-91ec-120809e6eee8)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/53442cc3-c8da-452e-b835-ce4d44155582)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/a659678f-6c4a-4ca2-8e8c-e02d445ecffd)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/d751cdd2-504b-413d-9e72-dfb5df8938c3)
+
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/5842021d-8241-488e-a97e-1d63a4b52a36)
 
 
 
