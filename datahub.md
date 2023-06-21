@@ -9,11 +9,11 @@ DataHub permet de cataloguer les données, de suivre leur origine et leur évolu
 
 Pour accèder à l'interface de démonstration de DataHub pour tester l'outil, vous pouvez taper l'adresse suivante dans votre navigateur:
 
-https://demo.datahubproject.io
+https://khaoulakplr-datahub-b4utc2qdeb9.ws-eu100.gitpod.io
 
 Vous aurez l'interface suivante :
 
-![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/869fb051-484a-4d1e-9948-dd255962229e)
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/153c1b9f-e732-49f4-a205-13b7aafefb0a)
 
 ## La conception d'un glossaire
 
@@ -41,15 +41,15 @@ Prenons l'exemple suivant : nous voulons avoir un processus métier (groupe de t
 
 1- Dans le menu `Govern`, choisissez `Domains`: 
 
-![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/4af1e38a-54cf-4ee2-8333-fae537fd02ba)
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/03bedb82-e0c0-4f79-91b9-c02be14e1389)
 
 2- Maintenant, créez le domaine `Manufacturing`.
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/cdefc9c8-e32a-408a-bee4-5fd08ca28104)
 
-3- Revenez dans le menu `Govern`, choisissez `Glossery`: 
+3- Revenez dans le menu `Govern`, choisissez `Glossary`: 
 
-![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/1c2c3739-1df2-4a1c-b33f-28922d35afde)
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/d7ab64c5-0a2a-45d6-aecc-4703d5405920)
 
 4- Cliquez `Add Term Group`: 
 
@@ -144,20 +144,20 @@ Vous pouvez commencer votre exploration des données à travers l'interface util
 
 2- Vous aurez cette interface, à gauche vous avez les différents filtres que vous pouvez appliquer ainsi que en haut vous avez une barre de recherche: 
 
-![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/9e26bd84-4ecb-4ae8-a5ab-af22f43add82)
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/d5712adb-751f-4caa-be31-6428d492c944)
 
 3- Choissisant par exemple les filtres suivants:
 
-![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/bad986fa-ff30-45e6-b7c0-0111715dd194)
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/a5f6d9cf-c359-4dce-8585-2b33b6b86e43)
 
 
 ### Résultats du profilage de la table
 
-Supposons qu'on veux examiner de plus près les données, on clique simplement sur l'ensemble de données `Dataset` depuis la liste. 
+Supposons qu'on veux examiner de plus près les données, on clique simplement sur l'ensemble de données `Dataset` depuis la liste. Choisissez par exemple le dataset `SampleHiveDataset`.
 
-La première information qu'on vois est un aperçu du schéma de la table qui affiche les champs, leur type de données et même certains détails du modèle de données :
+La première information qu'on vois est un aperçu du schéma de la table qui affiche les champs, leur type de données et même certains détails du modèle de données tels que les clés primaires et étrangères. En haut (sous le nom de l'ensemble de données), nous voyons également en un coup d'œil qu'il y a actuellement `3.5K lignes et 2 colonnes` dans notre dataset.
 
-![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/c2bdbaf3-f9b2-480a-911a-a48305b475f0)
+![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/2b30361e-2712-4445-abd0-efda009371b5)
 
 La deuxième feuille fait référence à la description qui est vide par défaut.
 
