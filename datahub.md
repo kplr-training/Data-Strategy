@@ -223,7 +223,9 @@ Dans DataHub, la data lineage fait référence à la capacité de visualiser et 
 
 ![image](https://github.com/kplr-training/Data-Strategy/assets/123748177/5842021d-8241-488e-a97e-1d63a4b52a36)
 
+Dans l'interface, vous pouvez explorer le graphique de la data lineage qui affiche les entités en tant que nœuds et les connexions entre elles. Chaque nœud représente une entité de données, telle qu'une table, une colonne ou une vue, et les connexions indiquent les relations entre ces entités.
 
+Vous pouvez cliquer sur un nœud pour afficher des informations détaillées sur cette entité, telles que ses propriétés, ses métadonnées et ses dépendances. Vous pouvez également naviguer vers les entités connectées pour suivre le chemin de la data lineage.
 
 
 
